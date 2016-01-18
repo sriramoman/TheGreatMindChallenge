@@ -12,7 +12,7 @@ map[3]='d'
 map[4]='e'
 countDown = len(graph)
 if source == dest:
-	print "Error!! Why do you want to use public transit to suthify and reach ur own place? Thats not what we've coded for!!"
+	print "Source==destination"
 	exit()
 while tentative !=[] or countDown >= 0:
 	countDown = countDown - 1
